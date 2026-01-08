@@ -1,0 +1,6 @@
+
+> irrigation-management-system@1.0.0 build
+> npx tailwindcss -i ./public/css/style.css -o ./public/css/dist/style.css --content "./views/**/*.php,./public/**/*.html"
+
+npm error could not determine executable to run
+npm error A complete log of this run can be found in: /home/jules/.npm/_logs/2026-01-08T05_44_49_731Z-debug-0.log

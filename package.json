@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./public/css/style.css -o ./public/css/dist/style.css --content \"./views/**/*.php,./public/**/*.html\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
     "url": "https://github.com/diazzhen06-pixel/Irrigation-Management-System/issues"
   },
   "homepage": "https://github.com/diazzhen06-pixel/Irrigation-Management-System#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  }
 }
